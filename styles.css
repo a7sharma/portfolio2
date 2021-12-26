@@ -1,0 +1,236 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.logo img {
+  height: 50px;
+  border-radius: 50%;
+}
+.container .list li {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #292423;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+.container .list li:hover {
+  color: grey;
+  transition: all 0.3s;
+}
+.container .list .button {
+  padding: 13px 25px;
+  background: #292423;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  box-shadow: 0 15px 40px rgb(0 0 0 / 20%);
+  transition: all 0.3s;
+}
+.container .list .button:hover {
+  color: black;
+  background-color: white;
+}
+/* info */
+.info {
+  display: flex;
+  width: 78vw;
+  height: 50vh;
+  margin: 56px 20px 70px 130px;
+  justify-content: space-around;
+  align-items: center;
+}
+.myself {
+  display: flex;
+  flex-direction: column;
+}
+.info span {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.info h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.info p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info a {
+  text-decoration: none;
+}
+.btn-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 25px;
+  background: #292423;
+  width: 150px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 9px;
+  box-shadow: 0 15px 40px rgb(0 0 0 / 20%);
+  transition: all 0.3s;
+}
+.info a:hover {
+  background-color: white;
+  color: black;
+}
+/*experonence */
+.ever {
+  height: 20vh;
+  width: 74vw;
+  background-color: hsl(10, 8%, 15%);
+  margin-right: 80px;
+  margin-left: 130px;
+  margin-bottom: 60px;
+  margin-top: 78px;
+  border-radius: 13px;
+  color: #fff;
+}
+.ever-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.ever-in .ph1 {
+  padding: 35px 20px 20px 20px;
+}
+.ph1 h1 {
+  margin-bottom: 6px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.ph1 p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*projects*/
+.projects {
+  margin-top: 3rem;
+}
+.projects h2 {
+  text-align: center;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  row-gap: 2rem;
+}
+.images .pimages img {
+  display: flex;
+  box-shadow: 0 4px 25px rgb(14 36 49 / 15%);
+  border-top-left-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
+  border: 1px black solid;
+  overflow: hidden;
+  height: 190px;
+  margin-left: 67px;
+  margin-right:0.9rem;
+}
+.pimages img:hover {
+  transition: 1s;
+  cursor: pointer;
+  object-fit: contain;
+  height: 198px;
+}
+.images1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  row-gap: 2rem;
+}
+.images1 .pimages img {
+  display: flex;
+  box-shadow: 0 4px 25px rgb(14 36 49 / 15%);
+  border-top-left-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
+  border: 1px black solid;
+  overflow: hidden;
+  height: 180px;
+  margin-left: 67px;
+  margin-right:0.9rem;
+}
+.pimages img:hover {
+  transition: 1s;
+  cursor: pointer;
+  object-fit: contain;
+  height: 198px;
+}
+/*contact*/
+.contact{
+  text-align: center;
+}
+.Contact h2{
+   margin-top: 20px;
+}
+.form{
+  background: url('https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg');
+}
+form{
+  display: grid;
+  place-items: center;
+}
+.form button{
+  background-color: #292423;
+  padding: 18px 9px;
+  color: white;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+.form button:hover{
+  background: white;
+  color: #292423;
+  transition: all 0.3s;
+  border:none;
+}
+form input{
+  width: 24%;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 6px 9px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+}
+form textarea{
+  width: 24%;
+  border-radius: 10px;
+  border:none;
+  text-decoration: none;
+}
+.form1 input{
+  background: black;
+  color: white;
+  padding: 8px 10px 12px 14px;
+  width: 50px;
+}
+.form input:hover{
+  background-color: white;
+  color: #292423;
+  transition: all 0.3s;
+}
